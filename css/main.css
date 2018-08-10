@@ -333,7 +333,6 @@ body {
 .light,
 .kwh,
 .footer,
-.carousel-caption p,
 .modal-body {
 	font-family:'Avenir Next LT W04 Ligh1437356', helvetica, sans-serif;
 }
@@ -545,6 +544,7 @@ h2 {
 		border-radius: 0;
 		border: none;
 		margin-top: 12px;
+		font-size: 18px;
 	}
 
 	#entries .row {
