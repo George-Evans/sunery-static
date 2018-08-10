@@ -316,6 +316,7 @@ body input:checked + label span:last-child {
 .footer {
 	height: 40px;
 	line-height: 40px;
+	font-size: 14px;
 	background-color: #333;
 	width: 100%;
 	color: #fff;
@@ -464,7 +465,9 @@ h2 {
 	}
 
 	.carousel-caption p {
-		font-size: 12px;
+		font-size: 16px;
+		line-height: 18px;
+		padding: 0 6px;
 	}
 
 	.usage-title {
@@ -504,6 +507,21 @@ h2 {
 		height: 320px;
 	}
 
+	.carousel-control-next,
+	.carousel-control-prev {
+		width: 9%;
+	}
+
+	.arrow img {
+		height: 16px;
+		width: 16px;
+	}
+
+	.carousel-caption {
+		right: 9%;
+		left: 9%;
+	}
+
 	#hero-1 {
 		background-position: 30%;
 	}
@@ -535,6 +553,10 @@ h2 {
 
 	#entries .row > div {
 		padding: 20px 20px 0;
+	}
+
+	.footer {
+		font-size: 10px;
 	}
 
 	
