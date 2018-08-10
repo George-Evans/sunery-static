@@ -249,6 +249,7 @@ body input:checked + label span:last-child {
 .carousel-control-next,
 .carousel-control-prev {
 	opacity: 1;
+	width: 10%;
 }
 
 .carousel-item {
